@@ -1,5 +1,6 @@
 import java.util.Scanner;
-public class PuedeConducir{
+
+public class PuedeConducir {
     public static void main(String[] args) {
 
      Scanner scanner = new Scanner(System.in);
@@ -14,6 +15,6 @@ public class PuedeConducir{
      if(edad<0 || edad>120){
         System.out.println("edad no valida");
      } else if(d)
-    }  
-    
+    }
+
 }
